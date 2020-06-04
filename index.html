@@ -8,6 +8,7 @@
 
 <body>
     <h1>Uso de Tablas en HTML</h1>
+    <h2>Tabla Básica</h2>
     <table border="1">
         <thead>
             <tr>
@@ -33,12 +34,63 @@
         </tbody>
         <tfoot>
             <tr>
-              <td>Lines: 2</td>
-              <td>&nbsp;</td>
-              <td>Sum(float *.1)</td>
-              <td>Sum(float *.2)</td>
+                <td>Lines: 2</td>
+                <td>&nbsp;</td>
+                <td>Sum(float *.1)</td>
+                <td>Sum(float *.2)</td>
             </tr>
         </tfoot>
+    </table>
+  <h2>Tabla Optimizada para UX</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Zona</th>
+                <th>Tienda</th>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">CNT</td>
+                <td>Multi Plaza</td>
+                <td>10</td>
+                <td>5</td>
+                <td>3</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Parque Central</td>
+                <td>15</td>
+                <td>2</td>
+                <td>3</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Loarque</td>
+                <td>10</td>
+                <td>2</td>
+                <td>3</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>NRT</td>
+                <td>Circunvalación</td>
+                <td>20</td>
+                <td>15</td>
+                <td>10</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>SUR</td>
+                <td>San Marcos de Colón</td>
+                <td colspan="3">10</td>
+                <td>30</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 
